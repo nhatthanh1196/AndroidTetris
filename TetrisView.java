@@ -382,6 +382,7 @@ public class TetrisView extends View {
       }
 
       if (reset){
+        point = 0;
         for (int i = 0; i < col; i++) {
           for (int k = 1; k < row; k++) {
             listBool[i][k] = false;
